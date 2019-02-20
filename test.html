@@ -1,0 +1,14 @@
+<html>
+<body>
+    <script>
+        const http = new XMLHttpRequest()
+
+http.open("GET", "http://localhost:8080");
+http.send();
+
+
+
+http.onload = () => console.log(http.responseText)
+    </script>
+</body>
+</html>
